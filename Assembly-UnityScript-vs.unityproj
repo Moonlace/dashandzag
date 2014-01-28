@@ -46,12 +46,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FanReaction.js" />
+     <Compile Include="Assets\FinishLineDetection.js" />
+     <Compile Include="Assets\FinishLineRender.js" />
+     <Compile Include="Assets\GameController.js" />
      <Compile Include="Assets\MoveAround.js" />
      <Compile Include="Assets\MoveSimple.js" />
+     <Compile Include="Assets\ObjectCollision.js" />
+     <Compile Include="Assets\ObstacleLauncher.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{76C76777-0B6A-24CC-54C3-B66A3B67C82E}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

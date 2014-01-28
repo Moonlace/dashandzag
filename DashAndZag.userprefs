@@ -1,8 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp/Compiled-Skybox.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameController.js">
     <Files>
-      <File FileName="Temp/Compiled-Skybox.shader" Line="12" Column="12" />
+      <File FileName="Assets/FinishLineDetection.js" Line="10" Column="45" />
+      <File FileName="Assets/GameController.js" Line="49" Column="3" />
+      <File FileName="Assets/MoveAround.js" Line="1" Column="1" />
+      <File FileName="Assets/ObstacleLauncher.js" Line="1" Column="1" />
+      <File FileName="Assets/FanReaction.js" Line="4" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

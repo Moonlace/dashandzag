@@ -46,11 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FanReaction.js" />
+     <Compile Include="Assets\FinishLineDetection.js" />
+     <Compile Include="Assets\FinishLineRender.js" />
+     <Compile Include="Assets\GameController.js" />
      <Compile Include="Assets\MoveAround.js" />
      <Compile Include="Assets\MoveSimple.js" />
+     <Compile Include="Assets\ObjectCollision.js" />
+     <Compile Include="Assets\ObstacleLauncher.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{76C76777-0B6A-24CC-54C3-B66A3B67C82E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{1774DF8F-2FD8-1E92-A435-0DD776512B57}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
